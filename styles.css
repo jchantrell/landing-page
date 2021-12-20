@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+ul {
+    display:flex;
+    justify-content: space-between;
+    list-style:none;
+ }
+ 
+li {
+    flex: 0 0 auto;
+    padding-left: 16px;
+ }
+
+.content {
+    flex-grow: 1;
+}
+
+.header-container {
+    background: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+.header-links {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    flex: 0 0 auto;
+}
+
+.section-one {
+    background: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 5% 20% 10% 20%
+}
+
+.section-one-content {
+    display: flex;
+}
+
+.section-one-signup-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-one-title {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+
+.section-one-blurb {
+    color: #E5E7EB;
+}
+
+.section-one-signup-button {
+    background: #3882f6;
+    color: #F9FAF8;
+}
+
+
+.section-one-image {
+    background: #E5E7EB;
+    display: flex;
+}
+
+.section-two {
+    display: flex;
+
+}
+
+.section-two-title {
+
+}
+
+.section-two-image-container {
+
+}
+
+.section-three {
+    background: #E5E7EB;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+
+.section-three-text {
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+
+.section-three-quote {
+
+}
+
+.section-four {
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+
+.section-four-signup {
+    align-content: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.footer-container {
+    background: #1F2937;
+    justify-content: center;
+    display: flex;
+}
+
+.footer {
+    color: #F9FAF8;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    font-size: 18px;
+}
