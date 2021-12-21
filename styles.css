@@ -21,7 +21,7 @@ li {
  }
 
 .content {
-    flex-grow: 1;
+    flex: 1;
 }
 
 .header-container {
@@ -174,12 +174,16 @@ li {
 }
 
 .section-four {
+    display: flex;
     justify-content: center;
-    display: flex; 
+    align-content: center;
+    flex: 1 0 auto;
+    padding: 10%
 }
 
 .section-four-signup {
     display: flex;
+    justify-content: space-evenly;
     background: #3882f6;
     border-radius: 12px;
     padding: 40px;
